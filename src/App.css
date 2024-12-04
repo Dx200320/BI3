@@ -1,0 +1,90 @@
+.App {
+  text-align: center;
+  background-color: #e0e5f1;
+  padding: 20px;
+}
+
+h1 {
+  color: #1a1a1a;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Imagen grande */
+.large {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.large img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+/* Texto "DeoMania - Saga" centrado */
+.saga-text {
+  font-weight: bold;
+  font-size: 18px;
+  color: #1a1a1a;
+  margin: 10px 0;
+}
+
+/* Fila de imágenes pequeñas */
+.small-row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  max-width: 400px;
+  margin: 0 auto; /* Centra la fila */
+}
+
+.small img {
+  width: 100%;
+  max-width: 120px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.small p {
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+/* Fila de imágenes grandes */
+.grid-row.large-row {
+  margin-top: 20px;
+}
+
+/* Fila de imágenes medianas */
+.medium-row {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 50px;
+  max-width: 500px;
+  margin: 20px auto; /* Centra la fila */
+}
+
+.medium img {
+  width: 100%;
+  max-width: 200px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.medium p {
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+/* Estilo del pie de página */
+footer {
+  margin-top: 20px;
+  color: #1a1a1a;
+  font-size: 0.9em;
+}
+
+footer h4, footer h5 {
+  margin: 5px;
+}
